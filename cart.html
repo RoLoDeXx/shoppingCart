@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./sources/styles/cart.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+  </head>
+  <header>
+    <a href="backpack.html" class="jump">
+      <i class="fas fa-home"></i>
+    </a>
+    <h2>BackPack</h2>
+  </header>
+  <body>
+    <div class="cartLogo">
+      <i class="fas fa-shopping-bag"></i>
+    </div>
+    <div class="container">
+      <ul>
+        <li>
+          <button id="buy" onclick="placeOrder()">Place Order</button>
+        </li>
+        <li>
+          <button id="empty" onclick="emptyCart()">Empty Cart</button>
+        </li>
+      </ul>
+    </div>
+    <footer>
+      <p>
+        &copy Copyright BackPack.org
+      </p>
+    </footer>
+  </body>
+  <script src="./sources/js/main.js"></script>
+</html>

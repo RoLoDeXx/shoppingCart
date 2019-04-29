@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+#section1,
+#section2,
+#section3,
+#section4,
+#section5,
+#section6 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  font-family: Lato;
+  text-transform: uppercase;
+  min-height: 100%;
+}
+
+#section1 {
+  background-image: url("../images/bali.jpg");
+}
+
+#section2 {
+  background-image: url("../images/capetown.jpg");
+}
+
+#section3 {
+  background-image: url("../images/malaysia.jpg");
+}
+
+#section4 {
+  /* background-image: url("../images/mauritius.jpg"); */
+}
+
+#section5 {
+  /* background-image: url("../images/nyc.jpg"); */
+}
+
+#section6 {
+  background-image: url("../images/singapore.jpg");
+}
+
+.heading {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.package {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.odd > h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+  text-align: center;
+}
+
+.even > h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #eee;
+  text-align: center;
+}
+
+.odd {
+  color: #777;
+  background-color: white;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
+  font-family: Lato;
+  word-spacing: 5px;
+}
+
+.even {
+  color: #ddd;
+  background-color: #282e34;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
+  font-family: Lato;
+  word-spacing: 5px;
+}
+
+h1 {
+  font-family: "Lato";
+  text-align: center;
+}
+
+li > a > button {
+  font-size: 1.25rem;
+  margin: 1rem 0;
+  border-radius: 50px;
+  border: none;
+  padding: 0.25rem 1rem;
+  cursor: pointer;
+  font-family: "Lato";
+  transition: 0.5s;
+  outline: none;
+  color: #656565;
+  background: white;
+}
+
+li > a > button:hover {
+  background: #656565;
+  color: white;
+}
+
+.even > button {
+  font-size: 1.25rem;
+  margin: 1rem 0;
+  border-radius: 50px;
+  border: none;
+  padding: 0.25rem 1rem;
+  cursor: pointer;
+  font-family: "Lato";
+  transition: 0.5s;
+  outline: none;
+  color: #656565;
+  background: white;
+}
+
+.odd > button {
+  font-size: 1.25rem;
+  margin: 1rem 0;
+  border-radius: 50px;
+  border: none;
+  padding: 0.25rem 1rem;
+  cursor: pointer;
+  font-family: "Lato";
+  transition: 0.5s;
+  outline: none;
+  color: white;
+  background: #656565;
+}
+
+h1 {
+  font-family: "Lato";
+  text-align: center;
+  margin-top: 5rem;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  font-size: 14px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 999;
+}
+
+footer p {
+  margin: 0;
+  font-family: Lato;
+  padding: 2rem;
+  font-family: Lato;
+}
+
+header > h2 {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+  background: #222222;
+  color: white;
+  font-family: Lato;
+}
+
+.jump {
+  position: absolute;
+  margin-top: 1rem;
+  left: 1rem;
+  text-decoration: none;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 50px;
+  top: 0;
+  transition: 0.5s;
+}
+
+.cart {
+  position: absolute;
+  margin-top: 1rem;
+  right: 1rem;
+  text-decoration: none;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 50px;
+  top: 0;
+  transition: 0.5s;
+}
+
+.cart:hover,
+.jump:hover {
+  background: white;
+  color: #656565;
+}

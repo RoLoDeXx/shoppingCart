@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./sources/styles/index.css" />
+  </head>
+  <header>
+    <h2>BackPack</h2>
+  </header>
+
+  <body>
+    <div class="container" id="container">
+      <div class="form-container sign-in-container">
+        <form
+          onsubmit="authenticate();"
+          action="backpack.html"
+          name="loginForm"
+        >
+          <input type="text" id="name" placeholder="Full Name" />
+          <input type="email" id="mail" placeholder="Email" />
+          <input type="password" id="pass" placeholder="Password" />
+          <input
+            type="number"
+            min="1"
+            max="7"
+            id="family"
+            placeholder="Number of applicants"
+          />
+          <input
+            type="number"
+            min="30000"
+            max="99999"
+            id="budget"
+            placeholder="Budget in ₹ "
+          />
+          <br />
+          <button>Sign In</button>
+        </form>
+      </div>
+      <div class="overlay-container">
+        <div class="overlay">
+          <div class="overlay-panel overlay-right">
+            <h1>Sign Up!</h1>
+            <p>Enter your personal details and start journey with us</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>
+        &copy Copyright BackPack.org
+      </p>
+    </footer>
+  </body>
+  <script src="./sources/js/main.js"></script>
+</html>

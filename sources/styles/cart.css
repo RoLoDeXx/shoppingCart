@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+body {
+  margin: 0;
+  font-family: "Lato";
+}
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  font-size: 14px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 999;
+  position: absolute;
+}
+
+footer p {
+  margin: 0;
+  font-family: Lato;
+  padding: 2rem;
+}
+
+header > h2 {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+  background: #222222;
+  color: white;
+  font-family: Lato;
+}
+
+.jump {
+  position: absolute;
+  margin-top: 1rem;
+  left: 1rem;
+  text-decoration: none;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 50px;
+  top: 0;
+  transition: 0.5s;
+}
+
+.jump:hover {
+  background: white;
+  color: #656565;
+}
+
+.container {
+  margin-top: 5rem;
+  align-items: center;
+}
+
+#buy,
+#empty {
+  border: none;
+  padding: 0.5rem 1rem;
+  font-weight: 1rem;
+  margin: 1rem;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+  outline: 0;
+}
+
+#buy {
+  background: #4bb543;
+}
+
+#empty {
+  background: #ff1313;
+}
+
+#buy:hover,
+#empty:hover {
+  background: #696969;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: auto;
+  text-align: center;
+  padding: 0;
+}
+
+.cartLogo {
+  margin-top: 5rem;
+  text-align: center;
+  font-size: 15rem;
+}
